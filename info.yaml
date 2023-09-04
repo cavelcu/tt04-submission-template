@@ -21,7 +21,7 @@ yaml_version: 1
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "Eduardo Zurek"
+  author:       "Eduardo Zurek, Margarita Narducci, Diana Rueda"
   title:        "Octal classifier"
   language:     "Verilog"
   description:  "Classifies images of numbers from 0 to 7 using the 16 most significant pixels"
@@ -36,7 +36,9 @@ documentation:
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
       In order to emulate an image in the input, the features must be set to one or zero according to the number of the image
-      Include example here
+      Example of the image of a zero:
+      feature_10=0  feature_13=1  feature_18=0  feature_19=1  feature_20=0  feature_21=0  feature_26=0  feature_27=1
+      feature_28=0  feature_34=0  feature_36=0  feature_42=0  feature_43=1  feature_45=0  feature_60=0  feature_61=1
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
