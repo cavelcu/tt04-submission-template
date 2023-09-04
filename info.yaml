@@ -30,7 +30,6 @@ documentation:
   how_it_works: |
       The system classifies images of numbers from 0 to 7 using the 16 most significant pixels
       The system´s input or features are the 16 most significant pixels of an 8x8 image with a number from 0 to 7.
-      Using a classification tree, determines the number contained in the image.
       The output is shown in the 7 segments display.
       
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
@@ -76,7 +75,7 @@ documentation:
 # The following fields are optional
   tag:          "clf"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  "N.A"      # Describe any external hardware needed
-  discord:      "zurek"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
+  discord:      "uninorte"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     10000000       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository
